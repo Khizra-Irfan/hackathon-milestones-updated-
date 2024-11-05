@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f5f8;
+}
+
+h1 {
+    text-align: center;
+    color: #1a3a5d; /* Navy Blue */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: #e8eff7; /* Light Navy Background */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    max-width: 600px;
+    margin: auto;
+}
+
+fieldset {
+    border: 2px solid #1a3a5d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f4f7fa;
+}
+
+legend {
+    font-weight: bold;
+    color: #1a3a5d;
+    padding: 0 5px;
+    font-size: 1.1em;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #1a3a5d;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #1a3a5d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #14416a;
+}
+
+/* Resume Display Section */
+#resume-display {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #1a3a5d;
+    border-radius: 8px;
+    background-color: #e8eff7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#resume-display h2 {
+    color: #1a3a5d;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#resume-display h3 {
+    color: #14416a;
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+#resume-display p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin: 5px 0;
+}
